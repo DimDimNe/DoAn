@@ -90,22 +90,22 @@ a.dangnhap
 }
 @keyframes slideshow {
     0%, 16.66% {
-      background-image: url("/images/backgroundimg.png");
+      background-image: url("./images/backgroundimg.png");
     }
     16.67%, 33.33% {
-      background-image: url("/images/phong-canh-Da-Lat-dep-nhat-lam-say.jpg");
+      background-image: url("./images/phong-canh-Da-Lat-dep-nhat-lam-say.jpg");
     }
     33.34%, 50%{
-      background-image: url("/images/hinh-anh-da-lat-homestay-giua-rung.jpg");
+      background-image: url("./images/hinh-anh-da-lat-homestay-giua-rung.jpg");
     }
     50.01%, 66.67% {
-      background-image: url("/images/gold.jpg");
+      background-image: url("./images/gold.jpg");
     }
     66.68%, 83.34% {
-      background-image: url("/images/Han\ Quoc\ Dalat\ buoi\ sang\ 18\ \(1\).jpg");
+      background-image: url("./images/Han\ Quoc\ Dalat\ buoi\ sang\ 18\ \(1\).jpg");
     }
     83.35%, 100% {
-      background-image: url("/images/da-lat-02.jpg");
+      background-image: url("./images/da-lat-02.jpg");
     }
     
 
