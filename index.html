@@ -1,0 +1,614 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thuong Hieu Du Lich</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <!--AOS JS-->
+    <link href="/aos-master/dist/aos.css" rel="stylesheet">
+    <script src="/aos-master/dist/aos.js"></script>
+    <!--AOS JS-->
+</head>
+<body>
+    
+
+
+
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-xxl" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Dịch Vụ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Điểm Tham Quan</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#gallary">Triển Lãm</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Giới Thiệu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#modal-container">Đã Đặt</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" id="search-box" placeholder="Tìm Kiếm" required>
+              <button class="btn btn-primary" type="button" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <div class="list-button">
+              <a href="https://dimdimne.github.io/DangNhap/" class="dangnhap"> <span class="button-text">Đăng Nhập</span></a>
+              <a href="https://dimdimne.github.io/DangNhap/" class="dangnhap"> <span class="button-text">Đăng Ký</span></a>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar End -->
+
+
+    <!--Modal-->
+    <div id="modal-container" >
+      <a href="#" class="overlay-close"></a>
+      <div  id="modal" >
+      <div class="modal-header" >
+        <h3>Đơn đã đặt</h3>
+        <a class="btn-close" href="#"></i></a>
+      </div>
+      <div class="modal-body">
+
+         <!-- Section Book Start -->
+      <section class="book" id="book">
+      <div class="container">
+
+        <div class="main-text">
+          <h1><span>T</span>hông Tin</h1>
+        </div>
+        
+        <div class="row">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/book.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <form action="#">
+
+              <input type="text" class="form-control" placeholder="Họ và tên" required><br>
+              <input type="text" class="form-control" placeholder="Số điện thoại" required><br>
+              <input type="date" class="form-control" placeholder="Checkin" required><br>
+              <input type="date" class="form-control" placeholder="Checkout" required><br>
+              <textarea class="form-control" rows="5" name="text" placeholder="Đã đặt"></textarea>
+              
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>  
+     <!--Section Book End -->
+      </div>
+      </div>
+    </div>
+    <!--Modal-->
+    
+
+
+
+
+    <!-- Home Section Start -->
+    <div class="home">
+        <div class="content">
+            <h5>Thành Phố Đà Lạt</h5>
+            <h1> <span class="changecontent"></span></h1>
+            <p>Đà Lạt nổi tiếng với khí hậu mát mẻ, xanh tươi và khung cảnh thiên nhiên đẹp, là một điểm đến du lịch phổ biến của Việt Nam.</p>
+            <a href="https://dimdimne.github.io/DangNhap/">Đăng Ký</a>
+        </div>
+      
+    </div>
+    <!-- Home Section End -->
+
+
+
+
+
+
+   
+
+ <!-- Section Services Start -->
+    <section class="services" id="services" >
+      <div class="container">
+
+        <div class="main-txt">
+          <h1><span>D</span>ịch <span>V</span>ụ</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0" data-aos="fade-down"  data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card"> 
+              <i class="fas fa-hotel"></i>
+              <div class="card-body">
+                <a href="https://dimdimne.github.io/Dulich2/#Hotel" class="services_btn"> <span class="button-text">Khách Sạn</span></a>
+                <p>Khách sạn ở Đà Lạt được thiết kế với kiến trúc độc đáo, nội thất sang trọng và được trang bị đầy đủ tiện nghi hiện đại.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0" data-aos="fade-down"  data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card">
+              <i class="fas fa-utensils"></i>
+              <div class="card-body">
+                <a href="https://dimdimne.github.io/Dulich2/#amthuc" class="services_btn"> <span class="button-text">Ẩm Thực</span></a>
+                <p>Đà Lạt là một thiên đường ẩm thực với đa dạng các món ăn địa phương và quốc tế, được chế biến từ nguyên liệu tươi ngon và sạch.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0" data-aos="fade-down"  data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card">
+              <i class="fas fa-bullhorn"></i>
+              <div class="card-body">
+                <a href="https://dimdimne.github.io/Dulich2/#about" class="services_btn"> <span class="button-text">Hướng Dẫn Viên</span></a>
+                <p>Hướng dẫn viên là một người chuyên nghiệp có nhiệm vụ giúp du khách hiểu rõ hơn về địa điểm tham quan, lịch sử, văn hóa và địa phương.</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;" >
+
+          <div class="col-md-4 py-3 py-md-0" data-aos="fade-down"  data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card">
+              <i class="fas fa-globe-asia"></i>
+              <div class="card-body">
+                <a href="https://dimdimne.github.io/Dulich2/#khampha" class="services_btn"> <span class="button-text">Khám Phá</span></a>
+                <p>Nếu bạn là một tín đồ của thế giới phiêu lưu và muốn khám phá những điều thú vị và bí ẩn của Đà Lạt, thì thám hiểm sẽ là lựa chọn tuyệt vời cho bạn.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0" data-aos="fade-down"  data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card">
+              <i class="fas fa-plane"></i>
+              <div class="card-body">
+                <a href="https://dimdimne.github.io/Dulich2/#maybay" class="services_btn"> <span class="button-text">Máy Bay</span></a>
+                <p>Giúp bạn tiết kiệm thời gian mà còn cho bạn trải nghiệm từng phút giây đầy thú vị khi bay trên bầu trời và chiêm ngưỡng vẻ đẹp tự nhiên của Đà Lạt .</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0" data-aos="fade-down"  data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card">
+              <i class="fas fa-hiking"></i>
+              <div class="card-body">
+                <a href="https://dimdimne.github.io/Dulich2/#phieuluu" class="services_btn"> <span class="button-text">Phiêu Lưu</span></a>
+                <p>Tham gia các chuyến đi bộ đường dài qua rừng núi, leo núi, trượt địa hình, đi xe đạp núi, hay cắm trại qua đêm để thưởng thức vẻ đẹp hoang sơ của núi rừng</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Section Services End -->
+
+
+
+
+
+
+    <!-- Section Packages Start -->
+    <section class="packages" id="packages">
+      <div class="container">
+        
+        <div class="main-txt">
+          <h1><span>Đ</span>iểm <span>T</span>ham <span>Q</span>uan</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card">
+              <img src="./images/hotuyenlam.jpg" alt="">
+              <div class="card-body">
+                <h3>Hồ Tuyền Lâm</h3>
+                <p>Không chỉ bởi sự rộng lớn của hồ, mà còn bởi cảnh quan thiên nhiên thơ mộng trữ tình</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Đặt Ngay </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-4 py-3 py-md-0" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card">
+              <img src="./images/ga-da-lat (1).png" alt="">
+              <div class="card-body">
+                <h3>Nhà Ga Đà Lạt</h3>
+                <p>Đây là nơi hấp dẫn của nhà ga phục vụ du khách tham quan ngắm cảnh trên đường đi</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Đặt Ngay </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card">
+              <img src="./images/sanmay.png" alt="">
+              <div class="card-body">
+                <h3>Săn Mây cầu đất</h3>
+                <p>Thiên đường sống ảo cực chất quanh năm muôn hoa đua nở khí hậu mát mẻ tràn ngập </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Đặt Ngay </a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card">
+              <img src="./images/khu-du-lich-nui-lang-biang-da-lat.jpg" alt="">
+              <div class="card-body">
+                <h3>Núi Lang-Biang</h3>
+                <p> Ngọn núi Langbiang là ngọn núi cao nhất của thành phố sương mù Đà Lạt</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Đặt Ngay </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card">
+              <img src="./images/nhatho.jpg" alt="">
+              <div class="card-body">
+                <h3>Nhà thờ Domaine</h3>
+                <p>Nhà thờ Domaine De Marie là một trong ba nhà thờ nổi tiếng nhất ở xứ sở ngàn hoa</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Đặt Ngay </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
+
+            <div class="card">
+              <img src="./images/duonghamdieukhac.jpg" alt="">
+              <div class="card-body">
+                <h3>Đường Hầm Điêu Khắc</h3>
+                <p>Đường hầm điêu khắc này còn là đường hầm làm bằng đất sét dài nhất thế giới. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Đặt Ngay </a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+    </section>
+    <!-- Section Packages End -->
+
+
+
+
+
+
+
+   
+
+
+
+
+    <!-- Section Gallary Start -->
+    <section class="gallary" id="gallary">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1><span>T</span>riển <span>L</span>ãm</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0"data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000">
+            <div class="card">
+              <img src="./images/viewho.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0"data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000">
+            <div class="card">
+              <img src="./images/du-lich-hoang-hon-da-lat-mytour-1.jpg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000">
+            <div class="card">
+              <img src="./images/hoang-hon-tim-da-lat-mytour-8.jpg" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000">
+            <div class="card">
+              <img src="./images/hoview.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000">
+            <div class="card">
+              <img src="./images/hoang-hon-tour-cam-trai-da-lat-diem-ngam-hoang-hon-dep-nhat-da-lat-datphongdalat.vn_.jpg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000">
+            <div class="card">
+              <img src="./images/khung-canh-hoang-hon-tai-ho-tuyen-lam.jpg" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Section Gallary End -->
+
+
+
+
+
+
+
+    <!-- About Start -->
+    <section class="about" id="about">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1> <span>G</span>iới <span>T</span>hiệu</h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+
+          <div class="col-md-6 py-3 py-md-0" data-aos="fade-right"
+          data-aos-offset="800"
+          data-aos-easing="ease-in-sine">
+            <div class="card">
+              <img src="./images/aboutus.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0" data-aos="fade-left" >
+            <h2>Travel</h2>
+            <p>Với kinh nghiệm và sự đam mê trong ngành du lịch, công ty cung cấp cho du khách các tour du lịch đa dạng, từ những tour khám phá văn hóa địa phương cho đến những tour mạo hiểm, thích hợp cho các khách hàng có nhu cầu khám phá và trải nghiệm những điều mới lạ.
+
+              Công ty du lịch ở Đà Lạt cam kết mang đến cho khách hàng những trải nghiệm du lịch tuyệt vời nhất, đáp ứng các nhu cầu khác nhau của khách hàng, từ việc đặt phòng khách sạn, thuê xe, tổ chức các hoạt động giải trí đến các dịch vụ hướng dẫn viên chuyên nghiệp và tận tình.
+              
+              Với sứ mệnh của mình, công ty du lịch ở Đà Lạt mong muốn giúp du khách khám phá vẻ đẹp của thành phố ngàn hoa và những địa danh nổi tiếng của khu vực Đà Lạt. Nếu bạn đang tìm kiếm một đối tác tin cậy để tổ chức chuyến du lịch của mình, công ty du lịch ở Đà Lạt chắc chắn là một lựa chọn tuyệt vời.</p>
+            <button id="about-btn" data-aos="zoom-in">Đọc thêm...</button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- About End -->
+
+
+
+
+
+
+
+
+    <!-- Footer Start -->
+    <footer id="footer">
+      <h1><span>T</span>ravel</h1>
+      <p>Du lịch, khám phá và tạo ra những kỷ niệm</p>
+      <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </div>
+      <div class="credit">
+        <p>Designed By <a href="#">D_Q_T_H</a></p>
+      </div>
+      <div class="copyright">
+        <p>&copy;Thankyou</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!--Chatbox-->
+     <div class="chatbox-wrapper">
+      <div class="chatbox-toggle">
+        <i class="fa-solid fa-comment"></i>
+      </div>
+      <div class="chatbox-message-wrapper">
+        <div class="chatbox-message-header">
+          <div class="chatbox-message-profile">
+            <img src="./images/nhanvienchat.png" alt="" class="chatbox-message-image">
+              <div>
+                <h4 class="chatbox-message-name">Chăm sóc khách hàng</h4>
+                <p class="chatbox-message-status">online</p>
+              </div>
+          </div>
+          <div class="chatbox-message-dropdown">
+            <i class="fa-solid fa-ellipsis-vertical chatbox-message-dropdown-toggle"></i>
+            <ul class="chatbox-message-dropdown-menu">
+                <li>
+                  <a href="#">Tìm kiếm</a>
+                </li>
+                <li>
+                  <a href="#">Báo cáo</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="chatbox-message-content">
+          <h4 class="chatbox-message-no-message">Hãy nhập câu hỏi của bạn???</h4>
+          
+        </div>
+        <div class="chatbox-message-bottom">
+          <form action="#" class="chatbox-message-form">
+            <textarea rows="1" placeholder="Nhập vào đây..." class="chatbox-message-input"></textarea>
+            <button type="submit" class="chatbox-message-submit"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+<!--Chatbox-->
+<!--Backtop-->
+<button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+<!--Backtop-->
+
+
+
+
+
+
+
+    
+    <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+</body>
+</html>
